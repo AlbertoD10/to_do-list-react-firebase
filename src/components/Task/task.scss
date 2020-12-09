@@ -1,0 +1,23 @@
+.task {
+  border: 1px solid #dadada;
+
+  &-item {
+    display: flex;
+    // border: 1px solid #dadada;
+    margin: 2px 0;
+
+    &__text {
+      overflow: hidden;
+    }
+    button {
+      margin: 5px;
+      svg {
+        width: 20px;
+        fill: #555273;
+        &:hover {
+          fill: white;
+        }
+      }
+    }
+  }
+}

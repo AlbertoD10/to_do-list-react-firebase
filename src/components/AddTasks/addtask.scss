@@ -1,0 +1,29 @@
+.add-task {
+  margin: 0 !important;
+  display: flex;
+  width: 100%;
+  input {
+    padding-right: 50px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+
+  button {
+    position: absolute !important;
+    right: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    top: 0;
+    bottom: 0;
+    margin-right: 7px;
+    border: 0;
+
+    svg {
+      fill: #bdbdbb;
+      width: 20px;
+      &:hover {
+        fill: rgb(118, 31, 136);
+      }
+    }
+  }
+}
